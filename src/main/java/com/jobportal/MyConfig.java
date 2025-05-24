@@ -19,7 +19,8 @@ public class MyConfig {
 			public void addCorsMappings(CorsRegistry registry) {
 				registry.addMapping("/**")
 						.allowedOrigins(
-								"http://localhost:3001"
+//								"http://localhost:3001"
+								"https://jobportal-frontend-e9s3.onrender.com"
 						)
 						.allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
 						.allowedHeaders("*")
